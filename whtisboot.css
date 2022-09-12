@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(bgpattern.jpg);
+}
+
+.container .logo svg{
+    position: absolute;
+    width: 40px;
+    top: 2%;
+    left: 50%;
+}
+
+.container .whatboot p{
+    color: rgb(125, 17, 122);
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 42%;
+}
+
+.container .bootdesc p{
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top: 20%;
+    margin: 0px 25px;
+}
+
+.container .rectangle{
+    position: absolute;
+    top: 31%;
+    margin: 0px 25px;
+    width: 1465px;
+    height: 200px;
+    background: rgba(0, 0, 0, 0.875);
+}
+
+.rectangle .whychoose{
+    color: rgb(151, 181, 207);
+    font-size: 30px;
+    position: absolute;
+    top: 20%;
+    font-weight: bold;
+    margin: 0px 10px;
+}
+
+.rectangle .whychoose1{
+    color: aliceblue;
+    position: absolute;
+    top: 45%;
+    margin: 0px 50px;
+    font-size: 19px;
+}
+
+.rectangle .whychoose1 hr{
+    position: absolute;
+    width: 1463px;
+    top: 140%;
+    right: -50px;
+}
+
+.rectangle2{
+    position: absolute;
+    top: 120%;
+    width: 1465px;
+    height: 50px;
+    background: rgba(226, 118, 118, 0.875);
+    border-radius: 40px;
+}
+
+.rectangle2 .fivereason p{
+    position: absolute;
+    color:white;
+    top: 8px;
+    left: 36%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rectangle3{
+    position: absolute;
+    top: 158%;
+    width: 1465px;
+    height: 170px;
+    background: rgba(32,177,170);
+}
+
+.rectangle3 .chart tr th,td{
+    border:1px solid rgb(168, 10, 10);
+    position: relative;
+    top: 35px;
+    left: 300px;
+    font-size: 20px;
+}
